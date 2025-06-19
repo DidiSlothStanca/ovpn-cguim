@@ -65,6 +65,7 @@ cd ~/ovpn-cguim/
 2. Select your `.ovpn` certificate file  
 3. Click **Connect**, then enter your root password when prompted
 4. **Stop** for stop connection
+5. **Reset** for reset conection
 
 If connection is successful, the window will minimize.  
 To disconnect, click **Stop**.
@@ -72,7 +73,5 @@ To disconnect, click **Stop**.
 Use the **Browse** button to select your certificate file.  
 When prompted, enter your root password — OpenVPN needs `sudo` access.
 
-# Reset Button
-This button will forcibly stop OpenVPN if it's still running  
+Use the **Reset** Button, This button will forcibly stop OpenVPN if it's still running  
 after the GUI is accidentally closed or crashes.
-```
